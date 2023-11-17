@@ -929,7 +929,7 @@ export async function handler(chatUpdate) {
       }
       if (chat) {
         if (!('isBanned' in chat)) chat.isBanned = false;
-        if (!('welcome' in chat)) chat.welcome = false;
+        if (!('welcome' in chat)) chat.welcome = true;
         if (!('detect' in chat)) chat.detect = true;
         if (!('detect2' in chat)) chat.detect2 = false;
         if (!('sWelcome' in chat)) chat.sWelcome = '';
@@ -939,7 +939,7 @@ export async function handler(chatUpdate) {
         if (!('delete' in chat)) chat.delete = true;
         if (!('modohorny' in chat)) chat.modohorny = false;
         if (!('autosticker' in chat)) chat.autosticker = false;
-        if (!('audios' in chat)) chat.audios = false;
+        if (!('audios' in chat)) chat.audios = true;
         if (!('antiLink' in chat)) chat.antiLink = false;
         if (!('antiLink2' in chat)) chat.antiLink2 = false;
         if (!('antiviewonce' in chat)) chat.antiviewonce = false;
@@ -954,7 +954,7 @@ export async function handler(chatUpdate) {
       } else {
         global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: false,
+          welcome: true,
           detect: true,
 		    detect2: false,
           sWelcome: '',
@@ -964,7 +964,7 @@ export async function handler(chatUpdate) {
           delete: true,
           modohorny: true,
           autosticker: false,
-          audios: false,
+          audios: true,
           antiLink: false,
           antiLink2: false,
           antiviewonce: false,
