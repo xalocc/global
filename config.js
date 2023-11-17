@@ -7,51 +7,25 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
-
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', false],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', false],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', false],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', false],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', false],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', false],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', false],
-  ['5215533827255', '💫 Mystic - Collaborator 7 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', false],
-  ['5491151540922', '💫 Mystic - Collaborator 9 💫', false],
-  ['51934308885', '💫 Mystic - Collaborator 9 💫', false],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', false],
-  ['593968585283'],
-  ['5219993404349'],
-  ['5219991402134'],
-  ['5492266466080'],
-  ['5219996125657'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'],  
-  ['5492266613038'], 
-  ['595992611272']
+  ['51904841810', '👑 Mystic - Creador 👑', false],
+  ['51934308885', '💫 Mystic - Collaborator 1 💫', false],
 ];
 
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
-global.packname = 'Sticker';
+global.packname = '(☞ﾟ∀ﾟ)☞';
 global.author = '@COMUNIDAD.DKN';
 global.wm = '@COMUNIDAD.DKN';
-global.titulowm = '@COMUNIDAD.DKN';
-global.titulowm2 = `@COMUNIDAD.DKN`
 global.igfg = '@COMUNIDAD.DKN';
-global.wait = '*[ ⏳ ] Cargando...*';
+global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./Menu3.png');
 
 global.mods = [];
 
@@ -64,14 +38,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ The Mystic - Bot`;
-global.gt = '@COMUNIDAD.DKN';
-global.mysticbot = '@COMUNIDAD.DKN';
-global.md = 'https://www.instagram.com/comunidad.dkn/';
-global.mysticbot = 'https://www.instagram.com/comunidad.dkn/';
-global.waitt = '*[ ⏳ ] Cargando...*';
-global.waittt = '*[ ⏳ ] Cargando...*';
-global.waitttt = '*[ ⏳ ] Cargando...*';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
+global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
+global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
+global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.nomorown = '5219993404349';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
@@ -87,8 +61,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
